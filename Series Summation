@@ -1,0 +1,17 @@
+  QUESTION:
+  Write python program to sum the given sequence:
+  2/9-5/13+8/17......(print 7 terms)
+  
+  Solution:
+n=int(input('Enter starting numerator:'))
+d=int(input('Enter starting denominator:'))
+lst=[]
+for i in range(7):
+    n+=3
+    d+=4
+    k=n/d
+    lst.append(k)
+print(lst)
+series=lst[0]-lst[1]+lst[2]-lst[3]+lst[4]-lst[5]+lst[6]
+print(series)
+    
