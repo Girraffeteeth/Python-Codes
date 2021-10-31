@@ -1,0 +1,13 @@
+#to calculate and print the sums of even and odd integers of the first n natural numbers
+n=int(input("upto which natural number:"))
+c=1
+sum_even=sum_odd=0
+while c<=n:
+    if c%2==0:
+        sum_even+=c
+    else:
+        sum_odd+=c
+    c+=1
+print("Sum of even integers is",sum_even)
+print("Sum of odd integers is",sum_odd)
+
